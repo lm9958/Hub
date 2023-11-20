@@ -60,7 +60,7 @@
       function sendUserMessageToBackend(userMessage) {
         return new Promise((resolve, reject) => {
           const xhr = new XMLHttpRequest();
-          const endpointUrl = 'YOUR_BACKEND_ENDPOINT_URL';  // 替换为你的后端服务器的URL
+          const endpointUrl = '[替换](https://discord.com/invite/uw3kEjKPZg)为你的后端服务器的URL
 
           xhr.open('POST', endpointUrl);
           xhr.setRequestHeader('Content-Type', 'application/json');
